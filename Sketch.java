@@ -55,5 +55,9 @@ public class Sketch extends PApplet {
 
   }
   
-  // define other methods down here.
+public void mouseClicked() {
+    if(mouseX >= 150 && mouseX <= 250 && mouseY >= 300 && mouseY <= 400) {
+        background(132, 164, 240);
+    }
+  } 
 }
